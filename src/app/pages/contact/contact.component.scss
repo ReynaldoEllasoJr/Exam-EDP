@@ -1,0 +1,49 @@
+.body-container{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border-color: orchid;
+    
+
+
+}
+@media only screen and (max-width:600px){
+    
+    .fa {  
+        padding: 20px;  
+      text-align: center;  
+        margin: 5px 2px;  
+        font-size: 30px;  
+        width: 50px;  
+      }  
+      .fa-facebook {  
+        background: #3B5998;  
+        color: white;  
+      }  
+      .fa-twitter {  
+        background: #55ACEE;  
+        color: white;  
+      }  
+      
+      .fa-instagram {  
+        background: orange;  
+        color: white;  
+      }  
+      .fa-github {  
+        background: black;  
+        color: white;  
+      }  
+      
+      .fa-google {  
+        background: #dd4b39;  
+        color: white;  
+      }  
+      
+      
+      .fa:hover {  
+          opacity: 0.9;  
+      }  
+}
